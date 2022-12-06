@@ -74,6 +74,9 @@ RUN cd $HOME/$ROS2_WORKSPACE && \
     --rosdistro $ROS_DISTRO \
     --from-paths . -y
 
+ADD build .
+#ADD install .
+
 # Build by source, override any packages in /opt/ros/
 RUN cd $HOME/$ROS2_WORKSPACE && \
     . /opt/ros/$ROS_DISTRO/setup.sh && \
