@@ -24,36 +24,39 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.78127806"
-     inkscape:cx="216.95221"
-     inkscape:cy="460.78345"
-     inkscape:window-width="946"
+     inkscape:zoom="1.5625561"
+     inkscape:cx="492.46231"
+     inkscape:cy="285.42975"
+     inkscape:window-width="1896"
      inkscape:window-height="1029"
-     inkscape:window-x="962"
+     inkscape:window-x="12"
      inkscape:window-y="39"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2" />
+     id="defs2">
+    <rect
+       x="309.50529"
+       y="197.35092"
+       width="230.39727"
+       height="84.239826"
+       id="rect2242" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <ellipse
-       style="fill:none;stroke-width:0.264583;stroke:#000000;stroke-opacity:1"
-       id="path111"
-       cx="107.47524"
-       cy="112.75377"
-       rx="29.903934"
-       ry="29.024178" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
-       d="m 67.538443,152.03824 40.023797,28.77404 33.89236,-26.52762 c 0,0 38.24461,6.50421 28.8844,-17.3331 0,0 -57.15998,-55.642586 -14.94292,-54.959809"
-       id="path1603"
-       sodipodi:nodetypes="cccc" />
+       style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none"
+       d="m 96.012954,51.131755 h 48.549916 v 48.330228 h 8.84942 V 50.739079 h 36.67398"
+       id="path5303" />
     <path
-       style="fill:none;stroke-width:0.264583;stroke:#000000;stroke-opacity:1"
-       d="m 72.542796,195.12735 c 25.493257,-2.23335 33.774874,11.06382 33.774874,11.06382 l 24.17403,-18.69508 c 0,0 28.02581,-24.9557 45.45229,14.70555"
-       id="path175" />
+       style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none"
+       d="M 189.386,43.730071 H 96.307189"
+       id="path6871" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none"
+       d="m 160.70607,55.386247 27.56971,15.917378 V 100.66746 H 161.633 V 64.798982"
+       id="path7606" />
   </g>
 </svg>
