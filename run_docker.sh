@@ -12,7 +12,8 @@ docker run -it --rm \
     --env=QT_X11_NO_MITSHM=1 \
     -v $(pwd):$WORK_DIR/src \
     -w $WORK_DIR/ \
-    ergoash/roboprinter-ros \
+    roboprinter-ros \
     bash
     #/bin/bash -ci "source /root/.bashrc && /bin/bash"
+    #ergoash/roboprinter-ros \
     #-m=2G \
