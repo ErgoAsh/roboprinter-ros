@@ -8,6 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
+find_package(moveit_visual_tools REQUIRED)
+find_package(moveit_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 
 add_executable(move_robot src/move_robot.cpp)
@@ -18,6 +20,8 @@ target_compile_features(move_robot PUBLIC c_std_99 cxx_std_17)  # Require C99 an
 ament_target_dependencies(
   move_robot
   "moveit_ros_planning_interface"
+  "moveit_visual_tools"
+  "moveit_msgs"
   "rclcpp"
 )
 

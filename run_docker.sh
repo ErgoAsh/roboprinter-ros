@@ -1,7 +1,7 @@
 #!/bin/bash
 
 xhost +local:
-export WORK_DIR=/home/ergoash/roboprinter_ws
+export WORK_DIR=/home/roboprinter/roboprinter_ws
 
 docker run -it --rm \
     --network host \
@@ -10,8 +10,8 @@ docker run -it --rm \
     --env DISPLAY=$DISPLAY \
     --volume /tmp/.X11-unix/:/tmp/.X11-unix \
     --env=QT_X11_NO_MITSHM=1 \
-    -v $(pwd):$WORK_DIR/src \
     -w $WORK_DIR/ \
+    -v $(pwd):$WORK_DIR/src \
     roboprinter-ros \
     bash
     #/bin/bash -ci "source /root/.bashrc && /bin/bash"
